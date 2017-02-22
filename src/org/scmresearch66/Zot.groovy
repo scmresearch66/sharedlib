@@ -4,4 +4,6 @@ def checkOutFrom(repo) {
    echo "Here"
 
    def causes = currentBuild.rawBuild.getCauses()
+
+   echo "${causes}"
 }
