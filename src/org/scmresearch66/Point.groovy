@@ -1,6 +1,6 @@
 package org.scmresearch66;
 
-class HelloWorld {
+class Point {
   String say() {
     return "Hello World"
   }
