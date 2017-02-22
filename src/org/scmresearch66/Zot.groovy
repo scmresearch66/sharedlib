@@ -21,5 +21,7 @@ NonCPS
 def getLastBuildCause() {
   def causes = currentBuild.rawBuild.getCauses()
 
-  return causes.last()
+  for ( cause in causes) {
+    echo "Cause: " + cause.getShortDescription()
+  }
 }
