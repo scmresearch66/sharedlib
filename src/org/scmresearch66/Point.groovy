@@ -6,3 +6,5 @@ def removeTrailingSlash(String myString) {
   }
   return myString
 }
+
+return this;
