@@ -16,3 +16,9 @@ def showChangeLogs() {
       }
   }
 }
+
+NonCPS
+def getLastBuildCause() {
+  def causes = currentBuild.rawBuild.getCauses()
+  return causes.last()
+}
