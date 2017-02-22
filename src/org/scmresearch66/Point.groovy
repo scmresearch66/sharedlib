@@ -1,4 +1,4 @@
-package scmresearch66.foo;
+package org.scmresearch66;
 
 // point in 3D space
 class Point {
