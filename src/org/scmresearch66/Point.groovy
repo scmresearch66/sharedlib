@@ -1,4 +1,4 @@
-package org.scmresearch66.Point;
+package org.scmresearch66;
 
 def removeTrailingSlash(String myString) {
   if (myString.endsWith("/")) {
