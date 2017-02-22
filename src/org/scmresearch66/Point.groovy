@@ -1,6 +1,6 @@
 package org.scmresearch66;
 
-class Point 
+class Point
 {
   String say()
   {
